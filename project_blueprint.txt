@@ -1,0 +1,78 @@
+📌 Project: AI Customer Support Agent (Function Calling)
+
+(For AI Engineer + Backend Developer roles)
+
+blueprint includes:
+
+✅ Architecture
+✅ Tech stack
+✅ Folder structure
+✅ Features
+✅ What to show recruiters
+✅ Stretch goals
+✅ How to demo it
+
+🎯 Goal
+
+Build an AI agent that uses function calls to interact with databases and APIs.
+
+🏛️ Architecture
+
+User → LLM → Function Calls → DB/API → Structured Response
+
+💻 Tech Stack
+
+Python
+
+FastAPI
+
+SQL (PostgreSQL/SQLite)
+
+OpenAI function calling
+
+LangChain optional
+
+📁 Folder Structure
+ai-support-agent/
+│── api/
+│   ├── main.py
+│   ├── functions.py
+│── database/
+│   ├── schema.sql
+│   ├── queries.py
+│── models/
+│── tests/
+│── utils/
+│── README.md
+
+✨ Core Features
+
+Function calling for:
+
+Fetching order info
+
+Checking ticket status
+
+Creating support tickets
+
+Account updates
+
+Conversation memory
+
+Error handling (timeouts, missing data)
+
+Brand-tone generator
+
+Logging
+
+⭐ Stretch Goals
+
+Add embeddings to retrieve FAQ answers
+
+Add email-sending function
+
+Add voice mode with Whisper + TTS
+
+🎥 Demo Suggestions
+
+Show real-time function calls with JSON responses.
