@@ -124,5 +124,5 @@ ai-support-agent/
 ---
 
 <div align="center">
-  <sub>Built with ❤️ by [Your Name]</sub>
+  <sub>Built with ❤️ by [Princewill C. Chioma]</sub>
 </div>
