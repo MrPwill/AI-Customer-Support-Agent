@@ -24,7 +24,7 @@ from fastapi.responses import FileResponse
 
 load_dotenv()
 
-app = FastAPI(title="Princewill's AI Customer Support Agent")
+app = FastAPI(title="AI Customer Support Agent")
 
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
